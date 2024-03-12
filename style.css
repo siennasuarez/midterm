@@ -1,0 +1,118 @@
+@font-face {
+  font-family: consistant;
+  src: url("/Users/siennasuarez/Documents/Web Dev /midterm/arcadeclassic/ARCADECLASSIC.TTF");
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: consistant;
+}
+.mainlayout {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+h3 {
+
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+}
+.profile {
+  display: flex;
+  margin-bottom: 20px;
+}
+.left-column {
+  width: 30%;
+  padding-right: 20px;
+ 
+}
+.right-column {
+  width: 70%;
+  padding-left: 20px;
+}
+.sectionOfInfo {
+  margin-bottom: 20px;
+}
+.friends {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.friends > div {
+  flex-basis: 22%;
+  text-align: center;
+}
+
+.friends > div > a > img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.friends > div > a > p {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  border: 1px solid #FF1493;
+  margin-bottom: 10px;
+}
+.interactions button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  backgrond:linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+  border: 1px solid #FF1493;
+}
+
+#valentina1{
+  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/valetina Photos/valetinabackg.jpg"); /*body*/
+}
+
+#valentina2{
+  background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%); /*mainlayout*/
+}
+
+#valentina3{
+background-color: hotpink; /*header*/
+}
+
+#valentina4{
+ border-right: 1px solid #FFB6C1; /*left column*/
+}
+
+#nora1{
+background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/nora photos/21.jpg"); /*body*/
+}
+
+#nora2{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,0.46124387254901966) 100%);
+}
+
+#nora3{
+background-color: #660000;
+}
+
+#nora4{
+ border-right: 1px solid #FEBE10; /*left column*/
+}
+
+#skull{
+  font-size: 25px;
+}
