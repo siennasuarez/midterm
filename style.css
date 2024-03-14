@@ -31,6 +31,18 @@ p {
   display: flex;
   margin-bottom: 20px;
 }
+
+footer {
+  background: rgb(9,9,121);
+  background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 .left-column {
   width: 30%;
   padding-right: 20px;
@@ -81,11 +93,12 @@ img {
 }
 
 #valentina1{
-  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/valetina Photos/valetinabackg.jpg"); /*body*/
+  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/valentina/valetinabackg.jpg"); /*body*/
 }
 
 #valentina2{
-  background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%); /*mainlayout*/
+  background: rgb(254,46,209);
+  background: radial-gradient(circle, rgba(254,46,209,1) 0%, rgba(238,174,202,1) 100%); /*MAIN LAYOUT*/
 }
 
 #valentina3{
@@ -97,7 +110,7 @@ background-color: hotpink; /*header*/
 }
 
 #nora1{
-background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/nora photos/21.jpg"); /*body*/
+background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/nora/21.jpg"); /*body*/
 }
 
 #nora2{
@@ -116,3 +129,129 @@ background-color: #660000;
 #skull{
   font-size: 25px;
 }
+
+#adamari1{
+background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/adamari /adamariback.jpeg");
+}
+
+#adamari2{
+  background: radial-gradient(circle, rgb(128, 0, 128), rgb(255, 192, 203));
+}
+
+#adamari3{
+  background: radial-gradient(circle, #a8caba 0%, #5d4157 100%);
+}
+
+#adamari4{
+border-right: 1px solid #01411C
+}
+
+#flower{
+  font-size: 12px;
+}
+
+#naomi1{
+  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/naomi/IMG_8814.jpeg");
+}
+
+#naomi2{
+background: rgb(0,255,4);
+background: radial-gradient(circle, rgba(0,255,4,0.23295255602240894) 0%, rgba(2,6,3,1) 100%);
+}
+
+#naomi3{
+background-color: #A51C30;
+}
+
+#naomi4{
+  border-right: 1px solid white;
+}
+
+#talia1{
+  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/nora/nora2.jpg");
+}
+
+#talia2{
+  background: rgb(0,255,4);
+  background: radial-gradient(circle, rgba(0,255,4,0.23295255602240894) 0%, rgba(254,16,206,0.4640449929971989) 100%);
+}
+
+#talia3{
+ background: rgb(238,143,8); 
+ background: linear-gradient(0deg, rgba(238,143,8,1) 0%, rgba(233,233,233,1) 50%, rgba(238,143,8,0.8477984943977591) 100%);
+}
+
+#talia4{
+   border-right: 1px solid #ee8f08
+}
+
+#emphasis{
+  font-size: 40px;
+}
+
+#homepage{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation, .logo{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+}
+
+.navLinks > p, .search > p, .accountInfo > p {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.clickables{
+  background-color: 020024;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options, .results{
+  color: #wheat;
+  margin-bottom: 10px;
+}
+
+.options > h2, .results > h2{
+  color: #white;
+  margin-bottom: 10px;
+}
+
+.options > p, .results > p{
+  margin-bottom: 5px;
+}
+
+.homeprofiles .peopleToClick {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.homeprofiles .peopleToClick > div {
+    width: 200px; /* Or whatever size you prefer */
+    text-align: center; /* Center the text below the image */
+}
+
+.homeprofiles .peopleToClick > img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+.peopleToClick> div > a > p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
