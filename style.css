@@ -1,6 +1,6 @@
 @font-face {
   font-family: consistant;
-  src: url("/arcadeclassic/ARCADECLASSIC.TTF");
+  src: url("./arcadeclassic/ARCADECLASSIC.TTF");
 }
 body {
   margin: 0;
@@ -93,7 +93,7 @@ img {
 }
 
 #valentina1{
-  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/valentina/valetinabackg.jpg"); /*body*/
+  background-image: url("./valentina/valetinabackg.jpg"); /*body*/
 }
 
 #valentina2{
@@ -110,7 +110,7 @@ background-color: hotpink; /*header*/
 }
 
 #nora1{
-background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/nora/21.jpg"); /*body*/
+background-image: url("./nora/21.jpg"); /*body*/
 }
 
 #nora2{
@@ -131,7 +131,7 @@ background-color: #660000;
 }
 
 #adamari1{
-background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/adamari /adamariback.jpeg");
+background-image: url("./adamari/adamariback.jpeg");
 }
 
 #adamari2{
@@ -151,7 +151,7 @@ border-right: 1px solid #01411C
 }
 
 #naomi1{
-  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/naomi/IMG_8814.jpeg");
+  background-image: url("./naomi/IMG_8814.jpeg");
 }
 
 #naomi2{
@@ -168,7 +168,7 @@ background-color: #A51C30;
 }
 
 #talia1{
-  background-image: url("/Users/siennasuarez/Documents/Web Dev /midterm/nora/nora2.jpg");
+  background-image: url("./nora/nora2.jpg");
 }
 
 #talia2{
@@ -193,6 +193,7 @@ background-color: #A51C30;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: consistant;
 }
 
 .navigation, .logo{
@@ -240,8 +241,8 @@ background-color: #A51C30;
 }
 
 .homeprofiles .peopleToClick > div {
-    width: 200px; /* Or whatever size you prefer */
-    text-align: center; /* Center the text below the image */
+    width: 200px;
+    text-align: center; 
 }
 
 .homeprofiles .peopleToClick > img {
